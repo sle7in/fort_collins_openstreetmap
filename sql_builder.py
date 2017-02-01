@@ -9,8 +9,8 @@
 import csv, sqlite3
 from make_csv import process_map
 
-FILEPATH = 'C:\\Users\\LonelyMerc\\Documents\\python\\udacity\\P3\\p3f\\'
-OSM_FILE = 'fort_collins.osm'
+FILEPATH = 'fort_collins_openstreetmap/'
+OSM_FILE = 'fc_sample.osm'
 DB_FILE = 'fc_osm.db'
 
 
