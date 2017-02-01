@@ -1,0 +1,36 @@
+Sources:
+http://www.expertmarket.com/USPS-street-suffix
+when writing my regular expression to obtain the most common abbreviations for street types
+
+http://effbot.org/zone/element-iterparse.htm#incremental-parsing 
+for additional reading on iterative parsing.
+
+https://docs.python.org/2/library/sqlite3.html 
+as a primary resource for sqlite3
+
+https://docs.python.org/2/library/xml.etree.elementtree.html 
+for elementtree documentation
+
+http://docs.python-cerberus.org/en/stable/install.html 
+for cerberus documentation
+
+https://docs.python.org/2/library/re.html 
+as a primary resource for regular expressions
+
+http://stackoverflow.com/questions/21257899/writing-a-csv-file-into-sql-server-database-using-python 
+for help optimizing my sql import and making it more concise
+
+http://stackoverflow.com/questions/305378/list-of-tables-db-schema-dump-etc-using-the-python-sqlite3-api/33100538#33100538 
+for sql database analysis
+
+http://data.mongabay.com/igapo/zip_codes/metropolitan-areas/metro-alpha/Fort%20Collins-Loveland%20(CO)1.html 
+to reference postal codes to their districts
+
+http://www.infoplease.com/us/census/data/colorado/fort-collins/demographic.html
+to reference Fort Collins household size
+
+https://www.trulia.com/blog/trends/eating-towns-drinking-towns/ 
+to reference San Francisco restaurant density
+
+https://github.com/hpaas001/Wrangling-OpenStreetMap-Data/blob/master/Report.pdf
+to reference confusion on which type of join to make on sql query for analysis; (UNION ALL) seemed to work best

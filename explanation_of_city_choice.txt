@@ -1,0 +1,6 @@
+Chosen map location:
+
+I chose Fort Collins, CO for my open street map cleaning project.
+It is where I attended University and is a beautiful place with a lovely environment.
+I really enjoyed my time there and could see myself returning,
+which lead to my choice to analyze this for the street maps project.
