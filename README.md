@@ -22,7 +22,7 @@ in order to make the necessary changes.
 
 Parsing/Cleaning:
 
-build_sql calls make_csv to create the csvs to insert into tables in sql.
+sql_builder calls make_csv to create the csvs to insert into tables in sql.
   make_csv uses shape_data to clean the xml and coerce data values to desired types
     shape_data uses cerberus.Validator (very slow) and schema as well as clean_class to correct audited values
      = any updates from audit needs to be updated in the clean_class CleanValue
