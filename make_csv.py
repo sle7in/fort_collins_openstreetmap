@@ -16,16 +16,13 @@ import schema
 
 SCHEMA = schema.schema
 
-OSM_PATH = "C:\\Users\\LonelyMerc\\Documents\\python\\udacity\\P3\\fc_sample.osm"
+OSM_PATH = "fort_collins_openstreetmap/fc_sample.osm"
 
 NODES_PATH = "nodes.csv"
 NODE_TAGS_PATH = "nodes_tags.csv"
 WAYS_PATH = "ways.csv"
 WAY_NODES_PATH = "ways_nodes.csv"
 WAY_TAGS_PATH = "ways_tags.csv"
-
-# LOWER_COLON = re.compile(r'^([a-z]|_)+:([a-z]|_)+')
-# PROBLEMCHARS = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
 # Make sure the fields order in the csvs matches the column order in the sql table schema
 NODE_FIELDS = ['id', 'lat', 'lon', 'user', 'uid', 'version', 'changeset', 'timestamp']
